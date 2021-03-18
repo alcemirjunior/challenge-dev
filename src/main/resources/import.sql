@@ -1,0 +1,22 @@
+INSERT INTO state (name, population) VALUES ('PR', 700);
+INSERT INTO state (name, population) VALUES ('SP', 300);
+INSERT INTO state (name, population) VALUES ('SC', 200);
+INSERT INTO state (name, population) VALUES ('CE', 100);
+INSERT INTO state (name, population) VALUES ('RJ', 100);
+INSERT INTO state (name, population) VALUES ('BA', 100);
+
+INSERT INTO city (name, population, stateId) VALUES ('Curitiba', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('Ponta Grossa', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('Pinhais', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('Matinhos', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('São Paulo', 100, 2);
+INSERT INTO city (name, population, stateId) VALUES ('Piracicaba', 100, 2);
+INSERT INTO city (name, population, stateId) VALUES ('Ribeira', 100, 2);
+INSERT INTO city (name, population, stateId) VALUES ('Florianópolis', 100, 3);
+INSERT INTO city (name, population, stateId) VALUES ('Tubarão', 100, 3);
+INSERT INTO city (name, population, stateId) VALUES ('Rio de Janeiro', 100, 5);
+INSERT INTO city (name, population, stateId) VALUES ('Fortaleza', 100, 4);
+INSERT INTO city (name, population, stateId) VALUES ('Salvador', 100, 6);
+INSERT INTO city (name, population, stateId) VALUES ('Maringa', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('Londrina', 100, 1);
+INSERT INTO city (name, population, stateId) VALUES ('Cascavel', 100, 1);
